@@ -7,7 +7,7 @@ const TemplateMoviePage = ({ movie, children }) => {
     <>
       <MovieHeader movie={movie} />
       <div className="row">
-        <div className="col-3">
+        <div className="col-3 bg-dark">
           <img
             src={
               movie.poster_path
@@ -18,7 +18,7 @@ const TemplateMoviePage = ({ movie, children }) => {
             alt={movie.title}
           />
         </div>
-        <div className="col-9">{children}</div>
+        <div className="col-9 bg-dark">{children}</div>
       </div>
     </>
   );

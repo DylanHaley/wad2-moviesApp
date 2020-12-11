@@ -10,6 +10,10 @@ p {
   margin-bottom: 1px;
 }
 
+.card {
+  border-radius: 25px;
+}
+
 .card-body {
   padding-top: 1px;
   padding-bottom: 1px;
@@ -18,3 +22,7 @@ p {
 .card-title {
   text-align: center
 }
+  
+  .shadow img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+  }
