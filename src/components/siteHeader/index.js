@@ -40,13 +40,13 @@ const SiteHeader = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link text-danger" to="/movies/latest">
-              Latest
+            <Link className="nav-link text-danger" to="/movies/nowplaying">
+              Now PLaying
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link text-danger" to="/movies/nowplaying">
-              Now PLaying
+            <Link className="nav-link text-danger" to="/movies/latest">
+              Latest
             </Link>
           </li>
         </ul>
