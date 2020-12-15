@@ -70,6 +70,9 @@ Name: Dylan Haley
 [model]: ./data.jpg
 [movieDetail]: ./public/movieDetail.png
 [review]: ./public/review.png
-[reviewLink]: ./public/reviewLink.png
-[cardLink]: ./public/cardLink.png
+[reviewLink]: ./public/reviewlink.png
+[cardLink]: ./public/cardlink.png
 [stories]: ./public/storybook.png
+[latest]: ./public/latest.png
+[upcoming]: ./public/upcoming.png
+[nowplaying]: ./public/nowplaying
