@@ -75,4 +75,4 @@ Name: Dylan Haley
 [stories]: ./public/storybook.png
 [latest]: ./public/latest.png
 [upcoming]: ./public/upcoming.png
-[nowplaying]: ./public/nowplaying
+[nowplaying]: ./public/nowplaying.png
