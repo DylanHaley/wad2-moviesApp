@@ -13,6 +13,7 @@ import AddMovieReviewPage from './pages/addMovieReviewPage'
 import UpcomingMovies from './pages/upcomingMovies';
 import NowPlayingMovies from './pages/nowPlayingMovies';
 import LatestMovies from './pages/latestMovies';
+import "./index.css";
 
 const App = () => {
   return (

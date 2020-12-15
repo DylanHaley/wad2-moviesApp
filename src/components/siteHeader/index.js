@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../globals/fontawesome";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./siteHeader.css";
 
 const SiteHeader = () => {
@@ -12,16 +11,6 @@ const SiteHeader = () => {
           TMDB Client
         </Link>
       </nav>
-      <FontAwesomeIcon
-        className="navbar-text text-light"
-        icon={["fas", "video"]}
-        size="3x"
-      />
-      <FontAwesomeIcon
-        className="navbar-text text-light"
-        icon={["fas", "film"]}
-        size="3x"
-      />
       <nav className="navbar navbar-expand ">
         <ul className="navbar-nav">
           <li className="nav-item">
