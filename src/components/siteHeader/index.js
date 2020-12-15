@@ -5,11 +5,8 @@ import "./siteHeader.css";
 
 const SiteHeader = () => {
   return (
-    <nav className="navbar  navbar-light fixed-top  bg-dark ">
+    <nav className="navbar  navbar-light fixed-top bg bg-dark ">
       <nav className="navbar-brand text-white">
-        <Link className=" text-white" to="/">
-          TMDB Client
-        </Link>
       </nav>
       <nav className="navbar navbar-expand ">
         <ul className="navbar-nav">

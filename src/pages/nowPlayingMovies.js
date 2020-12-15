@@ -3,6 +3,7 @@ import MoviesListPageTemplate from '../components/templateMovieListPage'
 import {MoviesContext} from '../contexts/moviesContext'
 import AddToFavoritesButton from '../components/buttons/addToFavorites'
 
+/* Created a new now playing movies page using code similar to the favourites page*/
 const NowPlayingMovies = () => {
   const context = useContext(MoviesContext);
   const nowPlayingMovies = context.nowplaying.filter((m) => {  
